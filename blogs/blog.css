@@ -1,0 +1,107 @@
+body{margin: 0; padding: 0; color: #A0A1A2; font-family: monospace}
+.container-1{width: 1349px; height: 647px; position: relative; padding: 0}
+.container-1 .avatar{position: absolute; height: 100%; width: 30%; background: #2b2c2c; float: left; padding: auto;
+	display: flex; justify-content: center; align-items: center}
+.container-1 .rig{position: absolute; height: 100%; width: 70%; background: #2D2E2E; margin-left: 30%}
+.avatar .bao{ width: 250px; height: 250px; position: relative; transition: 2s ease; border: 1px solid white}
+.bao ul li{list-style: none; top: 0; bottom: 0; right: 0; width: 0; display: none; transition: 2s}
+.bao ul li:first-child{top: 0; bottom: 0; right: 100%; width: 100%; display: inline-block}
+.avatar img{position: absolute; width: 250px; height: 250px; border-radius: 125px;bottom: 0;left: 0;right: 0;overflow: hidden;width: 250px; transition: 2s}
+.headertop{padding: 0; margin: 250px 0 0 70px}
+.headertop h1 span{padding: 0; margin: 0}
+.headertop h1 span{ font-family: monospace; color: #A0A1A2; font-size: 40px; font-weight: 600; padding-left:200px; opacity: -5}
+.headertop h1 span:last-child {font-size: 60px; font-weight: 800; color: #E0A80D; padding-left: 200px}
+.dev .link-icon {margin-right: 50px; padding-left: 10px; display: block}
+.link-icon span{margin-left: 5px; margin-top: 0px}
+.link-icon span:first-child{padding-left: 200px}
+.link-icon span i{color: #E0A80D}
+.dev span p{padding: 0; margin: 0px 0 0 70px; font-size: 20px; color: #A0A1A2; font-family: monospace; font-weight: normal;
+			width: 50%; display: block; float: left; padding-top: 10px; padding-left: 200px}
+.container-1 hr{width: 85%; margin: auto; margin-top: 150px; color: #A0A1A2; size: 1px; opacity: 0.4}
+.info{width: 85%; margin: auto; height: 50px}
+.info .info-child{width: 25%; height: 50px; float: left}
+.info-child h2{padding-left: 50px}
+.info-child h2 span{font-family: monospace; color: #A0A1A2; font-size: 15px; font-weight: 800;padding-top: 10px}
+.info-child h2 span:first-child{color: #E0A80D}
+.info-child h2 span:last-child{font-weight: 500}
+.info-child span:hover{color:#E0A80D; transition: 1s}
+
+
+.container-2{width: 1349px; height: 450px; position: relative; padding: 0}
+.container-2 .c2left {position: absolute; height: 100%; width: 30%; background: #2D2E2E}
+.container-2 .c2right {position: absolute; height: 100%; width: 70%; background: #2B2C2C; margin-left: 30%}
+
+.intro{height: auto; width: auto; margin-top: 70px; padding-right: 70px; text-align: right; font-family: monospace}
+.intro h1{color: #E0A80D; font-size: 25px; font-weight: 700; margin-bottom: 0px}
+.intro p{color: #A0A1A2; font-size: 15px; margin-top: 0px}
+.c2right p {font-size: 19px; font-family: monospace; display: block; margin: 70px}
+
+
+.container-3{width: 1349px; height: 300px; position: relative; padding: 0}
+.container-3 .c3left {position: absolute; height: 100%; width: 30%; background: #2B2C2C}
+.container-3 .c3right {position: absolute; height: 100%; width: 70%; background: #2D2E2E; margin-left: 30%}
+
+.expertise{height: auto; width: auto; margin-top: 70px; padding-right: 70px; text-align: right; font-family: monospace}
+.expertise h1{color: #E0A80D; font-size: 25px; font-weight: 700; margin-bottom: 0px}
+.expertise p{color: #A0A1A2; font-size: 15px; margin-top: 0px}
+.exp-block{height: 120px; width: 40%; margin: 60px 0px 10px 50px; float: left }
+.exp-block span{ display: inline-block; float: left; height: 190px; width: 70px; text-align: center; color: #E0A80D; font-size: 20px; padding-top: 10px;
+		 font-size: 25px; font-weight: 600}
+.exp-block-child h1{margin-top: 10px; font-size: 25px}
+.exp-block-child h1:hover{color:#E0A80D}
+.exp-block-child p{font-size: 15px}
+.exp-block-child p:first-child{color: #E0A80D}
+
+
+.container-31{width: 1349px; height: 300px; position: relative; padding: 0}
+.container-31 .c31left {position: absolute; height: 100%; width: 30%; background: #2B2C2C}
+.container-31 .c31right {position: absolute; height: 100%; width: 70%; background: #2D2E2E; margin-left: 30%}
+.expertise1{height: auto; width: auto; margin-top: 70px; padding-right: 70px; text-align: right; font-family: monospace}
+.expertise1 h1{color: #E0A80D; font-size: 25px; font-weight: 700; margin-bottom: 0px}
+.expertise1 p{color: #A0A1A2; font-size: 15px; margin-top: 0px}
+.exp-block1{height: 120px; width: 80%; margin: 40px 0px 10px 50px; float: left}
+.exp-block1 h3{ display: inline-block; text-align: left; color: #E0A80D; font-size: 20px; padding-top: 10px; font-size: 25px; font-weight: 600}
+
+
+.tooltip {position: relative;display: inline-block;}
+.tooltip .tooltiptext {visibility: hidden;
+    width: 120px;
+    background-color: #A0A1A2;
+    color: #333;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 150%}
+.tooltip .tooltiptext::after {content: "";position: absolute;top: 50%;left: 100%;margin-top: -5px;border-width: 5px;border-style: solid;border-color: transparent transparent transparent #A0A1A2}
+.tooltip:hover .tooltiptext {visibility: visible}
+
+
+.container-4{width: 1349px; height: 550px; position: relative; padding: 0}
+.container-4 .c4left {position: absolute; height: 100%; width: 30%; background: #2D2E2E}
+.container-4 .c4right {position: absolute; height: 100%; width: 70%; background: #2B2C2C; margin-left: 30%}
+.skills{height: auto; width: auto; margin-top: 70px; padding-right: 70px; text-align: right; font-family: monospace}
+.skills h1{color: #E0A80D; font-size: 25px; font-weight: 700; margin-bottom: 0px}
+.skills p{color: #A0A1A2; font-size: 15px; margin-top: 0px}
+.skill-bar{height: 40px; width: 40%; margin: 60px 0px 10px 70px; float: left }
+.skill-bar h1{width: 100%; font-size: 25px; margin-top: 10px}
+.skill-bar .bars{height: 10px; background: #A0A1A2; width: 100%; margin-top: 0px; position: relative; padding: 0}
+.bars .bars-child{position: absolute; background: #E0A80D; height: 100%; width: 0; bottom: 0; left: 0; right: 0; transition: 1.5s ease; overflow: hidden}
+
+
+.container-7{width: 1349px; height: 250px; position: relative; padding: 0}
+.container-7 .c7left {position: absolute; height: 100%; width: 30%; background: #2B2C2C}
+.container-7 .c7right {position: absolute; height: 100%; width: 70%; background: #2D2E2E; margin-left: 30%}
+
+.contact{height: auto; width: auto; margin-top: 70px; padding-right: 70px; text-align: right; font-family: monospace}
+.contact h1{color: #E0A80D; font-size: 25px; font-weight: 700; margin-bottom: 0px}
+.contact p{color: #A0A1A2; font-size: 15px; margin-top: 0px}
+.contact-block{width: 85%; margin: auto; height: 50px; margin-top: 50px}
+.contact-block .info-child{width: 25%; height: 50px; float: left}
+.info-child h2{padding-left: 50px}
+.info-child h2 span{font-family: monospace; color: #A0A1A2; font-size: 15px; font-weight: 800;padding-top: 10px}
+.info-child h2 span:first-child{color: #E0A80D}
+.info-child h2 span:last-child{font-weight: 500}
+.c7right h1{color: #E0A80D; font-size: 30px; margin-right: 7.5%; text-align: right}
